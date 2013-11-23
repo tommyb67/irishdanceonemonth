@@ -31,6 +31,8 @@ gem 'bootstrap-sass', '~> 3.0.2.0'
 # gem for using authentacation and authorization
 gem 'devise'
 
+gem "paperclip", "~> 3.0"
+
 group :development, :test do
      gem 'sqlite3'
 end
